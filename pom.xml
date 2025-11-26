@@ -5,7 +5,7 @@
 	<groupId>com.kk</groupId>
 	<artifactId>maven-web-application-kkfunda</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://44.248.209.171:8081/repository/demo-prod-qg/</url>
+	      <url>http://44.249.130.16:8081/repository/proj-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://44.248.209.171:8081/repository/demo-qa/</url>
+	      <url>http://44.249.130.16:8081/repository/proj-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
